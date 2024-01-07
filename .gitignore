@@ -30,4 +30,5 @@
 *.exe
 *.out
 *.app
-dummy.cpp
+.vscode/tasks.json
+dummy/
