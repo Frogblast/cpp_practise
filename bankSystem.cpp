@@ -50,11 +50,13 @@ int main()
 {
     map<string, BankAccount> accounts;
     bool running = true;
-    string currentUser;
+    const string currentUser;
 
     // welcome user
     cout << "Welcome!\n"
          << endl;
+
+ //   accounts.insert(currentUser, new BankAccount(currentUser));
 
     // start loop
     while (running)
